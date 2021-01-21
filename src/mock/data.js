@@ -2,16 +2,16 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Daniel Martin | Developer',
+  lang: 'en',
+  description: 'Welcome to my website',
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Daniel Martin',
+  subtitle: 'JS/React Developer',
   cta: '',
 };
 
@@ -28,21 +28,23 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'Project1.jpg',
+    title: 'ClubsMan',
+    info:
+      'ClubsMan is an application built using the MERN stack and lifecycle methods. It allows users to sign up, log in, change their settings and delete their account. Im a massive fan of football, and this application allows you to track your favourite premiership team with use of a API from rapid-api. Everytime a component is rendered or the information in redux is changed, a new request using axios is made to the relavant endpoints. You can see the technologies used in the client package.json and the server package.json. ',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://pacific-ocean-23430.herokuapp.com/',
+    repo: 'https://github.com/DanielMartin96/ClubsMan', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'Project2.jpg',
+    title: 'recruitme',
+    info:
+      'recruitme is a recruitment website built using the MERN stack and react hooks. It allows users to sign up, create, edit and delete job postings. Only the user that has created the posting are able to edit and delete that posting, meaning no other user has access to these functions.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://still-hollows-20508.herokuapp.com/',
+    repo: 'https://github.com/DanielMartin96/recruitme', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -59,7 +61,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'danielmartin1996@hotmail.com',
 };
 
 // FOOTER DATA
@@ -67,28 +69,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/daniel-martin-025756137/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/DanielMartin96/',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
