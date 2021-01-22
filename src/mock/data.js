@@ -11,17 +11,21 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Daniel Martin',
-  subtitle: 'JS/React Developer',
+  subtitle: 'Junior Web Developer',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne:
+    'Daniel Martin is a self-taught developer, with lots of experience building personal projects and graded projects for his JavaScript tech degree. Daniel is fueled by his massive passion for technology and websites, and loves the idea that you will never know everything in web development - liking the idea of being a "forever student". Daniel always finds himself on youtube researching new ways to write applications, and more efficient ways to write code.',
+  paragraphTwo:
+    'Daniel is currently unemployed due to losing his job to COVID. But he thinks this was actually a good thing, as it allowed for him to specialise in an industry perfect for him. He is looking for an opportunity as a junior developer. The most important thing for Daniel is mentorship, he wants to be taught by amazing developers who will show him all the best practices.',
+  paragraphThree:
+    'Daniel expecially loves React and the MERN stack, so would love any opportunity in that area.',
+  resume:
+    'https://docs.google.com/document/d/e/2PACX-1vQkl803F4gcW-rgWySaScnzPx9wnN-7ystR1JYr9eMegKzdkekG-S61xHygOXbueuIBJ2kyJucMHubu/pub', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -48,12 +52,13 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'Project3.jpg',
+    title: 'Bristol Fencing and Decking',
+    info:
+      'This is actually the first website I had ever built using plain HTML, CSS and a tiny amount of JS for the burger bar (10 lines!). Its not finished yet as the client did not need it finished at the time, but I believe it shows all the things needed to building a mobile responsive website. I also added google analytics to this website and hosted it myself.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://www.bristolfencinganddecking.co.uk/index.html',
+    repo: 'https://github.com/DanielMartin96/Bristol-Fencing-and-Decking-Responsive', // if no repo, the button will not show up
   },
 ];
 
